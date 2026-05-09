@@ -5,4 +5,4 @@ class test_Validate_Chat_Automation(page):
     automate_chat = AutomateChatPage(page)
     automate_chat.goto_chat()
     automate_chat.to_chat_with()
-    automate_chat.type_your_message('')
+    automate_chat.type_your_message('Hello!!')
